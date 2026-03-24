@@ -20,4 +20,4 @@ This project lasted from February to March 2026.
 
 ## Zap #1
 
-
+![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.png)
