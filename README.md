@@ -3,6 +3,8 @@
 
 Designed and implemented an event-driven follow-up automation pipeline using Zapier, ensuring consistent and timely customer communication across multiple reservation stages.
 
+Each workflow is triggered by specific events and concludes with targeted MailerLite communication, ensuring continuity across all customer touchpoints.
+
 This project lasted from February to March 2026.
 
 ## Authors
