@@ -1,7 +1,7 @@
 
 # Partykidz Production Zapier Integration & Business Process Improvement
 
-Designed and implemented an automated follow up pipeline using Zapier, improving the operational process involving regularly updating the customers with information about their event reservations.
+Designed and implemented an event-driven follow-up automation pipeline using Zapier, ensuring consistent and timely customer communication across multiple reservation stages.
 
 This project lasted from February to March 2026.
 
