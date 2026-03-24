@@ -18,6 +18,6 @@ This project lasted from February to March 2026.
 - [Partykidz Production Website](https://partykidzproductions.ie/)
 
 
-## Zap #1
+## Workflow #1
 
 ![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.png)
