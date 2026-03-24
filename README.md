@@ -3,6 +3,7 @@
 
 Designed and implemented an automated follow up pipeline using Zapier, improving the operational process involving regularly updating the customers with information about their event reservations.
 
+This project lasted from February to March 2026.
 
 ## Authors
 
