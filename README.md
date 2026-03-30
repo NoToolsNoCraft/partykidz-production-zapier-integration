@@ -54,3 +54,65 @@ Customer proceeds to deposit payment.
 + Speeds up conversion to payment
 
 ![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.png)
+
+
+## 🧩 Workflow #2: Payment Confirmation → Balance Update → Follow-up Email
+
+Triggered after a successful deposit payment.
+
+Updates internal records and sends a payment confirmation email with remaining balance details.
+
+🔄 Workflow Illustration
+
+   [Stripe Payment Completed]
+              ↓
+        [Zapier Trigger]
+              ↓
+ [Find Existing Customer (Google Sheets)]
+              ↓
+   [Update Row: Payment + Balance]
+              ↓
+      ┌────────┬────────┬────────┬────────┬────────┬
+      ↓        ↓        ↓        ↓        ↓        ↓
+ [Path 1]  [Path 2]  [Path 3]  [Path 4]  [Path 5]  [Path 6]
+      ↓        ↓        ↓        ↓        ↓        ↓
+   (Different email templates based on party type)
+              ↓
+     [MailerLite: Send Email]
+              ↓
+   [Customer Receives Confirmation]
+
+⚙️ Steps
++ Payment Completed (Stripe)
++ Customer completes deposit payment.
++ (Stripe sends its own receipt separately)
+  
+Trigger (Zapier)
++ Workflow starts on successful payment event.
++ Update Record (Google Sheets)
+
+Existing customer row is updated:
++ Payment status → confirmed
++ Deposit amount recorded
++ Remaining balance recalculated
+  
+Conditional Logic (Zapier Paths)
++ Workflow branches into 1 of 6 email paths based on party type.
++ Send Confirmation Email (MailerLite)
+
+Customer receives:
++ Deposit confirmation
++ Remaining balance
+  
+Next steps
+
+🔁 Output
++ Payment recorded and linked to customer
++ Financial data updated automatically
++ Customer informed with relevant details
+  
+💡 Value
++ Eliminates manual payment tracking
++ Prevents accounting errors
++ Personalized communication at scale
+
