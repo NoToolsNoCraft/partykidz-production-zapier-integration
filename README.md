@@ -72,14 +72,22 @@ Updates internal records and sends a payment confirmation email with remaining b
               ↓
    [Update Row: Payment + Balance]
               ↓
+   
       ┌────────┬────────┬────────┬────────┬────────┬
       ↓        ↓        ↓        ↓        ↓        ↓
+
  [Path 1]  [Path 2]  [Path 3]  [Path 4]  [Path 5]  [Path 6]
+
       ↓        ↓        ↓        ↓        ↓        ↓
+  
    (Different email templates based on party type)
+   
               ↓
+   
      [MailerLite: Send Email]
+      
               ↓
+   
    [Customer Receives Confirmation]
 
 ⚙️ Steps
