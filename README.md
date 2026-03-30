@@ -53,7 +53,7 @@ Customer proceeds to deposit payment.
 + Ensures consistent communication
 + Speeds up conversion to payment
 
-![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.png)
+![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.jpg)
 
 
 ## 🧩 Workflow #2: Payment Confirmation → Balance Update → Follow-up Email
