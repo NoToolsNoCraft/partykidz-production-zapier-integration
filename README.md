@@ -44,13 +44,13 @@ Email Redirect to Payment Form
 Customer proceeds to deposit payment.
 
 🔁 Output
-Lead stored in database
-Customer notified instantly
-Payment process initiated
++ Lead stored in database
++ Customer notified instantly
++ Payment process initiated
 
 💡 Value
-Eliminates manual follow-ups
-Ensures consistent communication
-Speeds up conversion to payment
++ Eliminates manual follow-ups
++ Ensures consistent communication
++ Speeds up conversion to payment
 
 ![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/1th%20Zapier%20Workflow.png)
