@@ -155,3 +155,48 @@ Customer receives:
 + Reduces last-minute payment issues
 + Improves cash flow predictability
 + Avoids unnecessary or incorrect emails
+
+
+## 🧩 Workflow #6: Animator Notification (2 Days Before Event)
+
+Automatically notifies the assigned animator about an upcoming event.
+
+Triggered 2 days before the event, ensuring the animator has all necessary details in advance.
+
+     [Scheduled Trigger (Daily)]
+                 ↓
+   [Check Events (2 Days Ahead)]
+                 ↓
+   [Get Event Data (Google Sheets)]
+                 ↓
+ [MailerLite: Send Email to Animator]
+                 ↓
+     [Animator Receives Details]
+
+⚙️ Steps
+
++ Scheduled Trigger (Zapier)
++ Runs daily and checks events occurring in 2 days.
++ Retrieve Event Data (Google Sheets)
+
+Fetches:
++ Animator name
++ Animator email
++ Event details (date, location, type)
++ Send Notification Email (MailerLite)
+
+Animator receives:
++ Event confirmation
++ Date and time
++ Location
++ Party details
+
+🔁 Output
++ Animator informed in advance
++ Reduced risk of miscommunication
++ Better event preparation
+
+💡 Value
++ Automates internal coordination
++ Ensures staff readiness
++ Eliminates manual reminders
