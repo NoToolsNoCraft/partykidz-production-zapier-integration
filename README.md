@@ -98,3 +98,60 @@ Next steps
 + Prevents accounting errors
 + Personalized communication at scale
 
+## 🧩 Workflows #3, #4, #5: Pre-Event Payment Reminders (5, 2, 1 Day Before)
+
+Automated reminder emails sent before the event date to ensure outstanding balances are paid on time.
+
+These workflows run at:
+
++ 5 days before event
++ 2 days before event
++ 1 day before event
+
+All three follow the same logic, with only the timing difference.
+
+⚙️ Trigger Conditions
+
+Workflow runs only if:
+
++ Payment method ≠ CASH
++ OR Remaining balance > 0
+
+👉 This ensures:
+
+Customers paying in cash are excluded
+Fully paid customers are not contacted unnecessarily
+
+![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/3rd%20zapier%20workflow.jpg)
+
+⚙️ Steps
+
++ Scheduled Trigger (Zapier)
++ Runs daily and checks upcoming events based on date.
++ Filter (Zapier)
+  
+Applies conditions:
++ Payment method is not CASH
++ Balance due is greater than 0
++ Retrieve Customer Data (Google Sheets)
+
+Fetches:
++ Event date
++ Remaining balance
++ Customer email
++ Send Reminder Email (MailerLite)
+
+Customer receives:
++ Event date reminder
++ Outstanding balance
++ Payment link
+  
+🔁 Output
++ Only relevant customers are contacted
++ Timely reminders before the event
++ Increased likelihood of full payment before event day
+
+💡 Value
++ Reduces last-minute payment issues
++ Improves cash flow predictability
++ Avoids unnecessary or incorrect emails
