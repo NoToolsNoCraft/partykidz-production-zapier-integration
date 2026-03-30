@@ -62,33 +62,7 @@ Triggered after a successful deposit payment.
 
 Updates internal records and sends a payment confirmation email with remaining balance details.
 
-🔄 Workflow Illustration
-
-   [Stripe Payment Completed]
-              ↓
-        [Zapier Trigger]
-              ↓
- [Find Existing Customer (Google Sheets)]
-              ↓
-   [Update Row: Payment + Balance]
-              ↓
-   
-      ┌────────┬────────┬────────┬────────┬────────┬
-      ↓        ↓        ↓        ↓        ↓        ↓
-
- [Path 1]  [Path 2]  [Path 3]  [Path 4]  [Path 5]  [Path 6]
-
-      ↓        ↓        ↓        ↓        ↓        ↓
-  
-   (Different email templates based on party type)
-   
-              ↓
-   
-     [MailerLite: Send Email]
-      
-              ↓
-   
-   [Customer Receives Confirmation]
+![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/2nd%20zapier%20workflow.jpg)
 
 ⚙️ Steps
 + Payment Completed (Stripe)
