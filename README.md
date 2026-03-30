@@ -122,7 +122,7 @@ Workflow runs only if:
 Customers paying in cash are excluded
 Fully paid customers are not contacted unnecessarily
 
-![1th Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/3rd%20zapier%20workflow.jpg)
+![3rd Zap structure](https://raw.githubusercontent.com/NoToolsNoCraft/partykidz-production-zapier-integration/refs/heads/main/3rd%20zapier%20workflow.jpg)
 
 ⚙️ Steps
 
@@ -163,15 +163,7 @@ Automatically notifies the assigned animator about an upcoming event.
 
 Triggered 2 days before the event, ensuring the animator has all necessary details in advance.
 
-     [Scheduled Trigger (Daily)]
-                 ↓
-   [Check Events (2 Days Ahead)]
-                 ↓
-   [Get Event Data (Google Sheets)]
-                 ↓
- [MailerLite: Send Email to Animator]
-                 ↓
-     [Animator Receives Details]
+![6th Zap structure](https://github.com/NoToolsNoCraft/partykidz-production-zapier-integration/blob/main/6th%20zapier%20workflow.png)
 
 ⚙️ Steps
 
